@@ -1,5 +1,23 @@
 # 멀티미디어실습 <font size= "2"> 2023년 가을학기에 진행한 git 수업 정리</font>
 
+## 2023-11-01
+### 브랜치
+> 정의 : Branch in git is light-weight moveable pointer to one of these commits.
+- 회사에서는 일감에 해당하는 이슈를 만든다.
+- 이슈에 해당하는 브랜치를 만든다.
+### 칸반 보드 (Kanban Board)
+- Todo, In Progress, Done 3개의 column으로 구성
+- IT 계열에서 테스터가 존재할 경우 In Test 항목이 있을 수 있음
+- 경우에 따라 BackLog에 담당자가 정해지지 않은 일감을 쌓아둠
+### Repository 보호
+- Settings &#8594; Branches &#8594; Branch Protection Rules &#8594; Add Rule 또는 Edit 으로 접근
+- Lock Branch : 사용자가 이 브랜치에 푸시하지 못하도록 설정
+### Pull Request
+- 내가 로컬 머신에서 작업했던 브랜치에 있는 커밋들을 원격 저장소의 main 브랜치에 반영하기 위해 pull request 작성
+### 브랜지 병합 (merge, 합치기)
+- 'git checkout <브랜치명>' 으로 브랜치 접근
+- git merge <브랜치명>
+
 ## 2023-10-18
 ### 저장소
 - 일반 폴더와 저장소의 차이는 '.git' 숨김폴더가 없냐 있냐 이다.
