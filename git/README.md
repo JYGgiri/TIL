@@ -14,7 +14,7 @@
 - Lock Branch : 사용자가 이 브랜치에 푸시하지 못하도록 설정
 ### Pull Request
 - 내가 로컬 머신에서 작업했던 브랜치에 있는 커밋들을 원격 저장소의 main 브랜치에 반영하기 위해 pull request 작성
-### 브랜지 병합 (merge, 합치기)
+### 브랜치 병합 (merge, 합치기)
 - 'git checkout <브랜치명>' 으로 브랜치 접근
 - git merge <브랜치명>
 
