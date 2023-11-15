@@ -1,5 +1,24 @@
 # 멀티미디어실습 <font size= "2"> 2023년 가을학기에 진행한 git 수업 정리</font>
 
+## 2023-11-15
+### 다른 작업자의 브랜치와의 충돌 해결
+- 만일 다른 사람의 브랜치와 나의 브랜치에서 같은 내용을 수정했을 때 충돌이 발생한다.
+- commit과 push가 이루어졌고 Pull Request를 하면 Conflict와 같은 메시지가 출력되며 Merge가 불가능하다고 한다.
+- vs code 또는 github 내부에서 충돌을 해결을 해야한다.
+
+
+### 일감 생성 및 브랜치 생성
+- Projects 탭에서 New Issue를 생성하고 브랜치를 생성한다.
+- Local Repository에서 브랜치 접근하는 순서
+```
+1. git fetch origin
+Remote Repository에 있는 것을 Local로 가져오는 작업
+
+2. git checkout <브랜치명>
+사전에 생성해둔 브랜치에 접근
+```
+> 이러한 방식으로 Remote Repository에서 브랜치를 먼저 생성하고 Local Repository에서 브랜치에 접근했을 때 이미 연결되어 있음.
+
 ## 2023-11-01
 ### 브랜치
 > 정의 : Branch in git is light-weight moveable pointer to one of these commits.
